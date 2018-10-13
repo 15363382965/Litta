@@ -1,0 +1,138 @@
+.blogs{
+	padding-top:10px;
+	padding-bottom: 90px;
+}
+.blogsBox{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background: white;
+}
+.blogs-Content1{
+	padding-right: 20px;
+	display: block;
+	
+	
+}
+.blogsContent2{
+	color: #767676;
+	background: white;
+}
+.content1-nav1{
+	padding-bottom: 20px;
+	position: relative;
+}
+.content1-nav1Box{
+	display: block;
+}
+.content1-nav1Box .content1-h2{
+	font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #443f3f;
+}
+.content1-h2 a{
+	color: #08aba6;
+	text-decoration: none;
+	transition: all 0.5s;
+	font-size: 17px;
+    font-weight: 600;
+}
+.content1-h2 a:hover{
+	color: #443f3f;
+}
+.content1-ico{
+	color: #5e5e5e;
+    font-size: 11px;
+    margin-bottom: 20px;
+    
+}
+.content1-ico1{
+	position: relative;
+    padding-left: 20px;
+    margin-right: 18px;
+}
+.content1-ico span{
+	 position: relative;
+	 padding-left: 20px;
+	 margin-right: 18px;
+}
+.content1-ico span::before{
+	position: absolute;
+    left: 0;
+    top: 1px;
+    font-family: "FontAwesome";
+    line-height: normal;
+}
+.content1-ico a{
+	color: #5e5e5e;
+	font-size: 11px;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.content1-ico a:hover{
+	color:#08aba6 ;
+}
+.content1-nav2{
+	margin-bottom: 24px;
+}
+.content1-nav2 p{
+	padding-right: 10px;
+	font-weight: 400;
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+.blogs-Content2{
+	position: relative;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.blogs-Content2::after{
+	content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 1px;
+    background: #08aba6;
+}
+.blogsContent2-nav1{
+	margin-bottom: 30px;
+	position: relative;
+	padding-top: 0;
+}
+.blogsContent2-nav1 h3,.blogsContent2-nav2 h3{
+	color: #767676;
+	font-size: 15px;
+    line-height: normal;
+    font-weight: 600;
+    padding-bottom: 24px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.blogsContent2-nav1Text{
+	margin-bottom: 10px;
+	margin-top: 0px;
+	color: #767676;
+	font-size: 11px;
+	font-weight: 500;
+}
+.blogsContent2-nav1Text span{
+	margin-right: 4px;
+}
+.blogsContent2-nav1Text a{
+	color: #767676;
+	font-size: 11px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.blogsContent2-nav2{
+	padding-top: 50px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.blogsContent2-nav1Text .content2-time2{
+	display: inherit;
+	margin-bottom: 10px;
+}

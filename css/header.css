@@ -1,0 +1,117 @@
+.sydney-hero-area {
+    overflow: hidden;
+}
+.header-slider{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.slides-control{
+	position: relative;
+    height: 100%;
+    width:100%; 
+    overflow:hidden;
+    /*left: -1519px;*/
+}
+.slides-container{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	height: 735px;
+}
+.slides-container .slide-item{
+	background:url(../img/header-img1.jpeg);
+	background-position: 50% 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+	display: block;
+    left:0px;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    opacity: 1;
+    animation: bgMove 3.5s infinite;
+}
+/*@keyframes bgMove{
+	0{opacity: 1;}
+	25%{opacity: 0.8;}
+	26%{opacity: 1;}
+	100%{opacity: 1;}
+}*/
+.slide-inner{
+	display: none;
+	position: absolute;
+    top: 50%;
+    left: 150%;
+    text-align: center;
+    z-index: 200;
+    width: 100%;
+    min-height: 260px;
+    padding-top: 5px;
+    transform: translate(-50%,-50%);
+    /*transition: all 5s;*/
+}
+.slide-inner1{
+	display: block;
+}
+ .maintitle{
+ 	position: relative;
+	letter-spacing: 1px;
+	color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    position: relative;
+    display: inline-block;
+    font-size: 57px;
+    line-height: 67px;
+    letter-spacing: -0.05px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    
+}
+ .text-slider .maintitle::after{
+ 	position: absolute;
+ 	top: 115%;
+ 	left: 30%;
+	content: '';
+	width: 40%;
+	height: 1px;
+	background:#08aba6;
+}
+ .text-slider .subtitle{
+	font-size: 30px;
+    line-height: 40px;
+    padding: 20px 0 50px;
+    font-weight: normal;
+    color: white;
+}
+.roll-button{
+	position: relative;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 12px 35px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #08aba6;
+    border: 1px solid #08aba6;
+    transition: all 0.5s;
+    opacity: 1 !important;
+}
+.roll-button:hover{
+	text-decoration: none;
+	color:#08aba6;
+	background-color: transparent;	
+}
+
+

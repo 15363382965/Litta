@@ -1,0 +1,239 @@
+.partner{
+	padding: 10px;
+	padding-bottom: 100px;
+	
+}
+.partnerBox{
+	padding: 30px;
+}
+.partnerBox1{
+	padding-bottom: 20px;
+	display: block;
+	position: relative;
+}
+.partnerHeaer{
+	margin-bottom: 30px;
+	display: none;
+}
+.header-entry{
+   margin: 0;
+   padding-bottom: 10px;
+	font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+.partner-content1{
+	max-width: 1170px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.partner-content1text{
+	margin-top: 30px;
+	text-align: center;
+    padding: 0px;
+    background-position: 50% 51px;
+    align-items:center;
+    
+}
+.content1-nav1{
+	text-align: center;
+}
+.content1-nav1 .ico{
+	border: 1px solid #08aba6;
+	text-align: center;
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+.ico a{
+	color:#08aba6;
+	background: transparent;
+}
+.ico a i{
+	color: #08ABA6;
+	font-size: 26px;
+}
+.content1-nav1-content{
+	text-align: center;
+	overflow: hidden;
+}
+.content1-nav1-h3{
+	color: rgb(68, 63, 63);
+	font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 7px 0 10px;
+}
+.content1-nav1-h3 a{
+	color:#08ABA6;
+}
+.content1-nav1-h3 a:hover{
+	text-decoration: none;
+	color:#08ABA6 ;
+}
+.partner-content2Text{
+	text-align: center;
+	padding: 0 10% 0 10%;
+	background-position: 50% 53px;
+	margin-left: -10%;
+	margin-right: -10%;
+	align-items: flex-start;
+	text-align: left;
+	margin-top: 40px;
+}
+.content1-nav1Text-h5{
+	text-align: center;
+	color: rgb(68, 63, 63);
+	font-weight: 500;
+	margin: 10px 0 24px;
+	font-size: 20px;
+}
+.content1-nav1Text-info{
+	display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding: 0;
+}
+.content2-label1{
+	
+	padding-bottom: 15px;
+}
+.content2-label1 label{
+	font-size: 12px !important;
+	margin-bottom: 0;
+	display: inline-block;
+	max-width: 100%;
+	font-weight: 500;
+}
+.content2-input1{
+	display: block;
+	position: relative;
+}
+.content2-input1 input{
+	width: 100%;
+	color: #767676;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    height: 50px;
+    padding: 4px 20px;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: none;
+    transition: all 0.3s;
+}
+input[type=text]:focus{
+	border-color: #08aba6;
+}
+.content2-check{
+	font-size: 13px;
+	display: block;
+	position: relative;
+}
+.content2-check1{
+	margin: 0 15px 0 0;
+    line-height: 8px;
+}
+.content2-check1 label{
+	font-size: 10px !important;
+	margin-bottom:0;
+	max-width: 100%;
+	display: inline-block;
+	font-weight: 600;	 	
+}
+.content2-check1 label input{
+	margin: 4px 0;
+}
+.content2-selected select{
+	font-size: 12px;
+	max-width: 100%;
+	color: #767676;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    height: 50px;
+    padding: 4px 20px;
+    border-radius: 0;
+}
+.content2-label1 textarea{
+	width: 100%;
+    height: 120px;
+    padding: 15px 20px;
+    color: #767676;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+}
+label{
+	font-weight: 600;
+}
+.content2-buttom{
+	border-color: #08aba6;
+	border: 1px solid #08aba6;
+	background:#08aba6;
+	position: relative;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 12px 34px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+.content2-buttom:hover{
+	color: #08aba6;
+	background: transparent;
+}
+.form-loading{
+	visibility:hidden;
+    display: inline-block;
+    background-image: url(../img/form-loading.gif);
+    width: 16px;
+    height: 16px;
+    border: none;
+    padding: 0;
+    margin: 0 0 0 4px;
+    vertical-align: middle;
+}
+.content2-later{
+	margin-bottom:30px;
+}
+input::-webkit-input-placeholder{
+	font-weight:normal;
+	font-size: 12px;
+	color: #DDDDDD;
+}
+.contact{
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.contactBox1{
+	padding: 30px;
+}
+.contact-content{
+	padding-bottom: 50px;
+	display: block;
+	
+}
+.contact-content1{
+	padding: 80px 0 35px;
+	background-position: 50% 58px;
+	text-align: left;
+}
+.contact-content1 h3{
+	text-align: center;
+    position: relative;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: rgb(68,63,63);
+}
+.contact-content2-contact{
+	width: 50%;
+	margin: 0 auto;
+}

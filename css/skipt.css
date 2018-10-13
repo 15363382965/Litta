@@ -1,0 +1,131 @@
+.skipt-header{
+	overflow: hidden;
+}
+.skipt-header .header-imges{
+	background-image: url(../img/skipt1.jpg);
+    display: block;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.skipt-header .header-imges-junk{
+	background-image: url(../img/junk-img1.jpg);
+}
+.skipt-header .header-imges-appliance{
+	background-image: url(../img/applicance-img1.jpg);
+}
+.skipt-header .header-blogs{
+	background-image: url(../img/applicance-img1.jpg);
+}
+.skipt-header .header-content{
+	position: absolute;
+    top: 47%;
+    color: #fff;
+    font-size: 45px;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%);
+    display: block;
+}
+.header-bg{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+}
+.skipt-header .headerImg{
+	max-width: 100%;
+    height: auto;
+    display: none;
+    vertical-align: middle;
+    border: none;
+}
+.skipt-content{
+	padding-top: 10px;
+	padding-bottom: 120px;
+}
+.skipt-content .skipt-contentBox{
+	padding: 30px;
+	background: white;
+}
+.content-class{
+	display: block;
+	max-width: 1170px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.contentBox-inside{
+	display: flex;
+	padding: 0px;
+    background-position: 50% 53px;
+}
+.contentBox-inside1{
+	height: auto;
+	box-sizing: border-box;
+	width: 33.3333%;
+}
+.contentBox-inside2{
+	float: left;
+	height: auto;
+	width: 33.3333%;
+	
+}
+.contentBox-inside2Img{
+	text-align: center;
+}
+.contentBox-inside2-img{
+	height: auto;
+	max-width: 100%;
+}
+.contentBox2-inside{
+	text-align: left;
+	padding: 0px;
+    background-position: 50% 53px;
+    width: 100%;
+}
+.contentBox2-inside h3{
+	font-size: 32px;
+	color: rgb(68,63,63);
+	margin: 10px 0 24px;
+	font: 32px/1.1 "Raleway", sans-serif;
+}
+.contentBox2-inside p{
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+.go-top{
+	position: fixed;
+	opacity: 1;
+    visibility: visible;
+    bottom: 11px;
+    right: 30px;
+    background-color: #08aba6;
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+    border-radius: 2px;
+    transition: all 0.5s;
+}
+.go-top:hover{
+	color: #08aba6;
+	background: white;
+	outline: none;
+}
+.show{
+	display: none !important;
+}
+.skipt-content .skipt-contentBox .skipt-contentBox1-junk{
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
