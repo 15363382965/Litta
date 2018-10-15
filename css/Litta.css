@@ -460,8 +460,25 @@ body {
      	margin-top: 30px;
      	margin-bottom: 20px;
      }
+     .informationBox{
+     	padding-top: 100px;
+     	padding-bottom: 50px;
+     }
      .informationBox1{
      	margin-bottom: 80px;
+     }
+     .approchBox{
+      margin-top: 70px;	
+      margin-bottom: 100px;
+     }
+     .informationBox-Right h2{
+     	font-size: 40px;
+     }
+     .informationBox-Right h3{
+     	font-size: 30px;
+     }
+     body .skipt-header .header-content{
+     	 font-size:42px;
      }
     }
 
@@ -537,7 +554,7 @@ body {
 		height: 45px;
 		width: 100%;
 		padding-left: 45px;
-		font-size: 13px;
+		font-size: 12px;
 		font-weight: 400;
 	}
 	.headerNav ul .headerNav1>a:hover {
