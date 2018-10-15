@@ -18,17 +18,25 @@ $(window).load(function(){
 $('.btn-menu').click(function(){
 $('.menu').toggle(400)
 })
-$('.sanjiaoxing').click(function(){
+
+$('.headerNav-Second').click(function(){
 	$('.sanjiaoxing').toggleClass('sanjiaoxingActive');
     $('.sub-menu').toggle(400)
 	
 })
 
-$('.headerNav-Second').hover(function(){
-	$('.sub-menu').slideToggle(100);
-},function(){
-	$('.sub-menu').slideToggle(100);
-})
+ $('.headerNav-Second').mouseenter(function(){
+ 	var windowWidth=$(window).width();
+ 	if(windowWidth>1009){
+ 		$('.sub-menu').slideToggle(100);
+ 	}
+ })
+ $('.headerNav-Second').mouseleave(function(){
+ 	var windowWidth=$(window).width();
+ 	if(windowWidth>1009){
+ 		$('.sub-menu').slideToggle(100);
+ 	}
+ })
 
 
 $(window).scroll(function(){
